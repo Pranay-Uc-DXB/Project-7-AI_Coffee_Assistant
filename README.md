@@ -1,1 +1,1 @@
-# Project-7-AI_Voice_Translator_-_Assistant
+# Project-7-AI_Voice_Translator/Assistant

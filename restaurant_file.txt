@@ -1,0 +1,24 @@
+Restaurant Name: Dubai's Kitchen
+Location: Whitefield, Bangalore
+
+Indian Menu:
+
+Plain Dosa - 30 Dirhams
+Akki Roti - 60 Dirhams
+Idli - 20 Dirhams
+Aloo Paratha - 40 Dirhams
+Poha - 30 Dirhams
+
+
+English Menu:
+
+Pancake - 70 Dirhams
+sandwitch - 50 Dirhams
+oatmeal with honey - 50 Dirhams
+Waffles - 50 Dirhams
+
+
+Beverages:
+
+pepsi - 40 Dirhams
+coke - 40 Dirhams

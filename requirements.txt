@@ -1,0 +1,17 @@
+gtts
+pygame
+pyaudio
+qdrant_client
+unstructured
+faster-whisper
+sentence-transformers
+llama-index-vector-stores-qdrant
+llama-index-embeddings-huggingface
+llama-index-llms-ollama
+llama-index-readers-file
+groq
+llama-index-llms-groq
+gradio 
+SpeechRecognition 
+ttsmms 
+deep_translator

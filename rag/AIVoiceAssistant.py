@@ -88,7 +88,6 @@ class AIVoiceAssistant:
 
             [ssk for their name, ask for their contact number, ask what menu they would prefer, present the contents of the menu and ask what they would like to order, Ask if they are allergic to anything and whether thay have any special preferences? ]
             
-            
             If you don't know the answer, just say "I  will connect you to an operator", don't try to make up an answer.
             Provide concise and short answers not more than 10 words, and don't chat with yourself!
             """

@@ -58,7 +58,7 @@ def multilingual_text_to_speech(text, target_lang):
     # Play the generated speech
     play_audio(audio_file)
 
-# # Example usage
+# # Example Check
 # if __name__ == "__main__":
 #     text = "Welcome to the multilingual text to speech service."
 #     target_language = "hindi"  # Choose the target language ('hindi', 'arabic', etc.)

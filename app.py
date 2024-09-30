@@ -7,6 +7,15 @@ import voice_service as vs
 from rag.AIVoiceAssistant import AIVoiceAssistant
 import torch
 
+# The main components of the script are:
+
+# Audio recording and processing
+# Speech-to-text transcription using the Whisper model
+# AI processing of the transcribed text
+# Text-to-speech conversion of the AI's response
+
+
+
 DEFAULT_MODEL_SIZE = "medium"
 DEFAULT_CHUNK_LENGTH = 10
 

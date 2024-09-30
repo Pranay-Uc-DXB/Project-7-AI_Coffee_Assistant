@@ -10,7 +10,7 @@ Latte - 20 Dirhams
 
 Food Menu:
 
-Pancake - 35 Dirhams
-Sandwitch - 30 Dirhams
-Oatmeal - 25 Dirhams
-Waffles - 35 Dirhams
+Pancake - 70 Dirhams
+sandwitch - 50 Dirhams
+oatmeal with honey - 50 Dirhams
+Waffles - 50 Dirhams

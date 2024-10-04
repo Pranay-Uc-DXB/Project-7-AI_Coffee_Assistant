@@ -11,21 +11,19 @@ In Dubai, UAE, you may have seen one of these coffee robots. This coffee barista
 
 
 ## So What's the project about?
-This app is about an AI powered voice assistant that will be used to provide personalized services to its intended users. To highlight one of the many use cases in the domain of personalized services, I am going to be showcasing a café barista who will be assisting its customers in the following ways:
+This app is about a multilingual AI-powered voice assistant that will be used to provide personalized services to its intended users. To highlight one of the many use cases in the domain of personalized services, I am going to be showcasing a café barista who will be assisting its customers in the following ways:
 
 1)	Greeting the customer
 2)	Recording their personal details such as name & number
 3)	Showcasing different menu(s) & their respective items
-
-
 4)	Recording preferences & allergies (if any)
 5)	Summarizing their final order with total price
 6)	Directing towards payment
 
-The series of steps mentioned above intends to host customers at a local café, record their orders, and assist them towards final payment. It is to be noted that this project is a 2-fold AI project where 2 different AI models orchestrate together to provide a seamless customer experience. This 2-fold project will include the following:
+The series of steps mentioned above intends to host customers, record their orders, and assist them towards final payment. It is to be noted that this project is a 2-fold AI project where 2 different AI models orchestrate together to provide a seamless customer experience. This 2-fold project consist of the following:
 
-1)	Use LLM model's respective chat engine to interact and assist with customer queries
-2)	Use an ASR model to detect spoken language and render services in the same language
+1)	Uses LLM model's respective chat engine to interact and assist with customer queries
+2)	Uses an ASR model to detect spoken language and render services in the same language
    
 *Please note that this project does not intend to solve a café or customer hosting issue. This app is designed to showcase personalized services. These services can be rendered in almost any industry.*
 

@@ -1,4 +1,4 @@
-# Project-7-AI_ASR_Voice_Assistant
+# Project-7-ASR_Voice_Assistant
 
 In Dubai, UAE, you may have seen one of these coffee robots. This coffee barista is already independent enough but something is missing.... I decided to help her out!
 

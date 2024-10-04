@@ -27,9 +27,7 @@ The series of steps mentioned above intends to host customers, record their orde
    
 *Please note that this project does not intend to solve a café or customer hosting issue. This app is designed to showcase personalized services. These services can be rendered in almost any industry.*
 
-
-<img width="978" height="500" alt="image" src="https://github.com/user-attachments/assets/16f24b40-1584-47d8-b57b-63f0fb3bf2c5">
-
+<img width="980"  height="500" alt="image" src="https://github.com/user-attachments/assets/46656188-39ca-421e-a057-392234b1aec2">
 
 This project is run on-premise using Ollama in synergy with available model libraries within the framework. Below are project's TTS and STT libraries
 

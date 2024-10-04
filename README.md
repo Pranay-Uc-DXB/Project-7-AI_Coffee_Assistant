@@ -30,7 +30,7 @@ The series of steps mentioned above intends to host customers, record their orde
 
 <img width="992" height="500" alt="image" src="https://github.com/user-attachments/assets/8dbe42a7-2ba5-4746-82e8-306b28eeb146">
 
-This project will be run on-premise using Ollama in synergy with available model libraries within the framework. Below are project's TTS and STT libraries
+This project is run on-premise using Ollama in synergy with available model libraries within the framework. Below are project's TTS and STT libraries
 
 1)	The speech-to-text library utilizes Whisper Medium V3 from OpenAI to automatically detect spoken language and transcribe it in its respected language
 2)	The text-to-speech function intended to use Meta’s powerful language repository (MMS) to translate detected languages back into user’s language for seamless experience, but due to prolific integration issues, Google Translator was ultimately chosen.

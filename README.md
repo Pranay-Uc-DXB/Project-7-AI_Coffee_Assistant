@@ -5,7 +5,7 @@ In Dubai, UAE, you may have seen one of these coffee robots. This coffee barista
 
 
 <div align="center">
-  <video src=https://github.com/user-attachments/assets/3374d9b5-77cc-4cac-9c4e-45ff0863dcfe width="400" />
+  <video src=https://github.com/user-attachments/assets/3374d9b5-77cc-4cac-9c4e-45ff0863dcfe width="400" height="100"/>
 </div>
 
 
@@ -30,7 +30,7 @@ The series of steps mentioned above intends to host customers at a local café, 
 *Please note that this project does not intend to solve a café or customer hosting issue. This app is designed to showcase personalized services. These services can be rendered in almost any industry.*
 
 
-<img width="992" alt="image" src="https://github.com/user-attachments/assets/8dbe42a7-2ba5-4746-82e8-306b28eeb146">
+<img width="992" height="500" alt="image" src="https://github.com/user-attachments/assets/8dbe42a7-2ba5-4746-82e8-306b28eeb146">
 
 This project will be run on-premise using Ollama in synergy with available model libraries within the framework. Below are project's TTS and STT libraries
 

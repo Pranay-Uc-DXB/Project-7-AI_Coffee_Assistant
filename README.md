@@ -1,59 +1,41 @@
-<<<<<<< HEAD
-# Project-7-AI_Voice_Translator/Assistant
-=======
-# Build Real-Time AI Voice Assistant With RAG Pipeline And Memory | Mistral LLM | Ollama
+# Project-7-ASR_Voice_Assistant
 
-This repository contains code for a voice assistant that interacts with an AI model for natural language understanding (NLU). The assistant is designed to record audio input from users, transcribe it, and then interact with the AI model to provide relevant responses.
+In Dubai, UAE, you may have seen one of these coffee robots. This coffee barista is already independent enough but something was missing.... I decided to help her out!
 
-## Features
 
-- Record audio input from users in chunks.
-- Transcribe the recorded audio using a pre-trained AI model.
-- Interact with the AI model to generate responses based on user input.
-- Utilizes a knowledge base for context-aware responses.
 
-## Prerequisites
+<div align="center">
+  <video src=https://github.com/user-attachments/assets/3374d9b5-77cc-4cac-9c4e-45ff0863dcfe width="400" height="100"/>
+</div>
 
-Before running the code, ensure you have the following dependencies installed:
 
-- Python above 3.8
-- `pyaudio`
-- `numpy`
-- `faster_whisper` (Installable via pip)
-- `qdrant_client` (Installable via pip)
-- Other dependencies specified in `requirements.txt`
 
-## Usage
+## So What's the project about?
+This app is about a multilingual AI-powered voice assistant that will be used to provide personalized services to its intended users. To highlight one of the many use cases in the domain of personalized services, I am going to be showcasing a café barista who will be assisting its customers in the following ways:
 
-1. Clone this repository to your local machine.
+1)	Greeting the customer
+2)	Recording their personal details such as name & number
+3)	Showcasing different menu(s) & their respective items
+4)	Recording preferences & allergies (if any)
+5)	Summarizing their final order with total price
+6)	Directing towards payment
 
-   ```bash
-   git clone git@github.com:ayaansh-roy/voice_assistant_llm.git
+The series of steps mentioned above intends to host customers, record their orders, and assist them towards final payment. It is to be noted that this project is a 2-fold AI project where 2 different AI models orchestrate together to provide a seamless customer experience. This 2-fold project consist of the following:
 
-2. Install the dependencies using pip.
+1)	Uses LLM model's respective chat engine to interact and assist with customer queries
+2)	Uses an ASR model to detect spoken language and render services in the same language
+   
+*Please note that this project does not intend to solve a café or customer hosting issue. This app is designed to showcase personalized services. These services can be rendered in almost any industry.*
 
-   ```bash
-   pip install -r requirements.txt
+<img width="980"  height="500" alt="image" src="https://github.com/user-attachments/assets/46656188-39ca-421e-a057-392234b1aec2">
 
-3. Run the main script app.py.
+This project is run on-premise using Ollama in synergy with available model libraries within the framework. Below are project's TTS and STT libraries
 
-   ```bash
-   python app.py
+1)	The speech-to-text library utilizes Whisper Medium V3 from OpenAI to automatically detect spoken language and transcribe it in its respected language
+2)	The text-to-speech function intended to use Meta’s powerful language repository (MMS) to translate detected languages back into user’s language for seamless experience, but due to prolific integration issues, Google Translator was ultimately chosen.
+3)	Project's chat engine is powered by Llama's latest *3.2 Text Preview* (as of Sep 2024) wrapped by Groq in synergy with RAG to synthesize response
+   
 
-4. Follow the prompts to interact with the voice assistant. Speak into the microphone when prompted.
 
-## Configuration
-- You can adjust the default model size and chunk length in the script as per your requirements.
-- Modify the paths and settings related to the knowledge base and AI model if needed.
 
-## Notes
-- Ensure that your system's microphone is correctly configured and accessible by the script.
-- Make sure to handle exceptions and errors gracefully, especially during audio recording and transcription processes.
 
-## License
-- This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-- The AI model used in this project is based on faster_whisper.
-- Special thanks to the developers of pyaudio, numpy, and scipy for their contributions.
->>>>>>> d48c334 (Initial commit)

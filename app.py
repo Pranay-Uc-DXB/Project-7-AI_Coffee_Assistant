@@ -3,8 +3,8 @@ import numpy as np
 from scipy.io import wavfile
 from faster_whisper import WhisperModel
 import speech_recognition as sr
-import voice_service as vs
-from rag.AIVoiceAssistant import AIVoiceAssistant
+import T_T_S as vs
+from rag.S_T_T import AIVoiceAssistant
 import torch
 
 # The main components of the script are:

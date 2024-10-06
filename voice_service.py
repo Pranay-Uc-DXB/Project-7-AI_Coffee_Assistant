@@ -29,14 +29,18 @@ def play_audio(file_path):
     time.sleep(1)
     os.remove(file_path)  # Clean up the temporary audio file
 
-# Supported language codes (you can expand this list)
+# Supported language codes 
 SUPPORTED_LANGS = {
-    'hindi': 'hi',
-    'arabic': 'ar',
-    'french': 'fr',
-    'spanish': 'es',
-    'german': 'de',
-    'chinese': 'zh-CN'
+    'en': 'en', #english
+    'hi': 'hi', #hindi
+    'ar': 'ar', #arabic
+    'ru': 'ru', #russian
+    'fr': 'fr', #french
+    'es': 'es', #spanish
+    'de': 'de', #german
+    'ml': 'ml', #malayalam
+    'zh-CN': 'zh-CN', #Mandarin
+    'tr': 'tr', #turkish
 }
 
 # Main function to translate and convert text to speech
@@ -61,4 +65,6 @@ def multilingual_text_to_speech(text, target_lang):
 #     multilingual_text_to_speech(text, target_language)
 
 
-
+from deep_translator import GoogleTranslator
+langs_dict = GoogleTranslator().get_supported_languages(as_dict=True)
+langs_dict

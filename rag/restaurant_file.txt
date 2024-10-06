@@ -1,24 +1,16 @@
-Restaurant Name: Dubai's Kitchen
-Location: Whitefield, Bangalore
+Restaurant Name: Dubai's Finest Beans
+Location: City walk, Dubai
 
-Indian Menu:
+Beverages Menu:
 
-Plain Dosa - 30 Dirhams
-Akki Roti - 60 Dirhams
-Idli - 20 Dirhams
-Aloo Paratha - 40 Dirhams
-Poha - 30 Dirhams
+Matcha Coffee - 25 Dirhams
+Cappuccino - 20 Dirhams
+Mocha - 20 Dirhams
+Latte - 20 Dirhams
 
+Food Menu:
 
-English Menu:
-
-Pancake - 70 Dirhams
-sandwitch - 50 Dirhams
-oatmeal with honey - 50 Dirhams
-Waffles - 50 Dirhams
-
-
-Beverages:
-
-pepsi - 40 Dirhams
-coke - 40 Dirhams
+Pancake - 35 Dirhams
+Sandwitch - 30 Dirhams
+Oatmeal - 25 Dirhams
+Waffles - 35 Dirhams

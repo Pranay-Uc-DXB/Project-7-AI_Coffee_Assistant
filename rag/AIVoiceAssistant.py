@@ -22,7 +22,7 @@ class AIVoiceAssistant:
 
         # Instantiate Groq LLM (Language Model) 
         self._llm = Groq(
-            model='llama-3.2-11b-text-preview',  # Update the model name based on Groq specs...... llama-3.1-8b-instant, 
+            model='llama-3.2-11b-text-preview',  # Update the model name based on Groq specs
             api_key="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",  # API key if required by Groq
             request_timeout=120.0)
         
@@ -44,7 +44,7 @@ class AIVoiceAssistant:
 
     def _create_kb(self):
         try:
-            reader = SimpleDirectoryReader(input_files=[r"C:\Users\97158\Desktop\Voice Assistant\rag\restaurant_file.txt"])
+            reader = SimpleDirectoryReader(input_files=[r"rag\restaurant_file.txt"])
             documents = reader.load_data()
 
             # Set up vector store and storage context
@@ -80,13 +80,13 @@ class AIVoiceAssistant:
     @property
     def _prompt(self):
         return """
-            You are a professional AI Assistant receptionist working in Dubai's Kitchen.
+            You are a professional female AI Assistant working in Dubai's Finest Beans.
             Provide a short greet to the customer. After the greeting, collect customer's personal information. Questions regarding personal information have been 
             mentioned below in square bracket.
 
             PLEASE DO NOT ASK ALL THE QUESTIONS AT ONCE. Ask one question at a time and let the customer respond. Then move on to the next question. keep the conversation very short! 
 
-            [ssk for their name, ask for their contact number, ask what menu they would prefer, present the contents of the menu and ask what they would like to order ]
+            [ssk for their name, ask for their contact number, ask what menu they would prefer, present the contents of the menu and ask what they would like to order, Ask if they are allergic to anything and whether thay have any special preferences? ]
             
             
             If you don't know the answer, just say "I  will connect you to an operator", don't try to make up an answer.

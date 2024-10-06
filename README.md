@@ -10,7 +10,7 @@ In Dubai, UAE, you may have seen one of these coffee robots. This coffee barista
 
 
 
-## So What's the project about?
+## So What's the Project About?
 This app is about a multilingual AI-powered voice assistant that will be used to provide personalized services to its intended users. To highlight one of the many use cases in the domain of personalized services, I am going to be showcasing a café barista who will be assisting its customers in the following ways:
 
 1)	Greeting the customer
@@ -27,7 +27,7 @@ The series of steps mentioned above intends to host customers, record their orde
    
 *Please note that this project does not intend to solve a café or customer hosting issue. This app is designed to showcase personalized services. These services can be rendered in almost any industry.*
 
-<img width="980"  height="500" alt="image" src="https://github.com/user-attachments/assets/46656188-39ca-421e-a057-392234b1aec2">
+<img width="980"  height="450" alt="image" src="https://github.com/user-attachments/assets/46656188-39ca-421e-a057-392234b1aec2">
 
 This project is run on-premise using Ollama in synergy with available model libraries within the framework. Below are project's TTS and STT libraries
 

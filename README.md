@@ -22,8 +22,8 @@ This app is about a multilingual AI-powered voice assistant that will be used to
 
 The series of steps mentioned above intends to host customers, record their orders, and assist them towards final payment. It is to be noted that this project is a 2-fold AI project where 2 different AI models orchestrate together to provide a seamless customer experience. This 2-fold project consist of the following:
 
-1)	Uses LLM model's respective chat engine to interact and assist with customer queries
-2)	Uses an ASR model to detect spoken language and render services in the same language
+1)	Uses an ASR model to detect spoken language and assist with customer queries
+2)	Uses LLM model's respective chat engine to interact and render services in the same language
    
 *Please note that this project does not intend to solve a café or customer hosting issue. This app is designed to showcase personalized services. These services can be rendered in almost any industry.*
 

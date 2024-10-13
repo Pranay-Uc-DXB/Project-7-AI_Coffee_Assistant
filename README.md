@@ -11,6 +11,7 @@ In Dubai, UAE, you may have seen one of these coffee robots. This coffee barista
 
 
 ## So What's the Project About?
+
 This app is about a multilingual AI-powered voice assistant that will be used to provide personalized services to its intended users. To highlight one of the many use cases in the domain of personalized services, I am going to be showcasing a café barista who will be assisting its customers in the following ways:
 
 1)	Greeting the customer
@@ -35,6 +36,9 @@ This project is run on-premise using Ollama in synergy with available model libr
 2)	The text-to-speech function intended to use Meta’s powerful language repository (MMS) to translate detected languages back into user’s language for seamless experience, but due to prolific integration issues, Google Translator was ultimately chosen.
 3)	Project's chat engine is powered by Llama's latest *3.2 Text Preview* (as of Sep 2024) wrapped by Groq in synergy with RAG to synthesize response
    
+## Project Demo:
+
+Demo Link: https://www.linkedin.com/posts/pranayu_ai-asr-llms-activity-7248904904960884736-WO9n?utm_source=share&utm_medium=member_desktop
 
 ## Configuration & Usage:
 

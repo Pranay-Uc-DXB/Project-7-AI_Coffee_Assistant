@@ -65,6 +65,6 @@ def multilingual_text_to_speech(text, target_lang):
 #     multilingual_text_to_speech(text, target_language)
 
 
-from deep_translator import GoogleTranslator
-langs_dict = GoogleTranslator().get_supported_languages(as_dict=True)
-langs_dict
+# from deep_translator import GoogleTranslator
+# langs_dict = GoogleTranslator().get_supported_languages(as_dict=True)
+# langs_dict

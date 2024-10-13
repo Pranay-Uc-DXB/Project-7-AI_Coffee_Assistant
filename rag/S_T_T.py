@@ -23,7 +23,7 @@ class AIVoiceAssistant:
         # Instantiate Groq LLM (Language Model) 
         self._llm = Groq(
             model='llama-3.2-11b-text-preview',  # Update the model name based on Groq specs
-            api_key="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",  # API key if required by Groq
+            api_key="Your API Key",  # API key if required by Groq
             request_timeout=120.0)
         
         self._embed_model = HuggingFaceEmbedding(model_name="BAAI/bge-small-en-v1.5") #"nomic-embed-text-v1.5"
@@ -44,7 +44,7 @@ class AIVoiceAssistant:
 
     def _create_kb(self):
         try:
-            reader = SimpleDirectoryReader(input_files=[r"rag\restaurant_file.txt"])
+            reader = SimpleDirectoryReader(input_files=[r"rag\Menu_file.txt"])
             documents = reader.load_data()
 
             # Set up vector store and storage context
